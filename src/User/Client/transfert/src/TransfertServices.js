@@ -1,5 +1,5 @@
-import User from '../models/userRepo.js';
-import trasfertOTP from "../models/transfert/TrasnfertOtpRepo.js";
+import User from '../../../models/userRepo.js';
+import trasfertOTP from "../models/TrasnfertOtpRepo.js";
 import crypto from "crypto";
 
 export const generateOtp = () => {
